@@ -1,0 +1,304 @@
+{
+  "totalMark": 20,
+  "wsosSections": {
+    "1": "Work organization and self-management",
+    "2": "Communication and interpersonal skills",
+    "3": "Design Implementation",
+    "4": "Front-End Development",
+    "5": "Back-End Development"
+  },
+  "subCriterions": [
+    {
+      "name": "User Interface Design",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Overall frontend design and styling is applied",
+          "maxMark": 2,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "No styling applied at all or basic browser styling only",
+            "Basic styling is applied and content is readable, but some elements have default browser styling",
+            "Good styling is applied throughout with no default browser elements and content is well readable",
+            "Advanced styling with visually appealing and cohesive design, creative use of typography, colors, spacing to enhance user experience"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Login page is well structured and user-friendly",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "Login page is not implemented or poorly styled",
+            "Basic login page with minimal styling",
+            "Well-styled login page with clear structure and good user experience",
+            "Exceptional login page design with advanced styling and intuitive user interface"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Restaurant browsing page is well structured and clear",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "Page feels empty or overloaded, lacking clear structure",
+            "Basic structure with readable content but minimal styling",
+            "Well-structured page with good organization and clear navigation",
+            "Exceptional structure with advanced styling, intuitive navigation and professional appearance"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Restaurant detail page with menu is well structured",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "Page feels empty or overloaded, difficult to navigate menu items",
+            "Basic structure showing menu items but minimal styling",
+            "Well-structured page with clear menu display and good organization",
+            "Exceptional menu page with advanced styling and excellent user experience"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "User Authentication",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "User login functionality works correctly",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Users can log in with email and password, JWT token is stored and used for subsequent requests",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "User registration functionality works correctly",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "New users can register with name, email, password and password confirmation with proper validation",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "User logout functionality works correctly",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Users can log out, JWT token is cleared, and user is redirected to login page",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Authentication token persistence",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "JWT token is stored in browser storage and persists across page reloads",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Restaurant Browsing and Search",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Restaurant list display functionality",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Homepage displays 6 randomly selected restaurants with name, description, average rating and Continue link",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Show more results functionality",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Show more results link displays remaining restaurants when clicked",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Restaurant search functionality",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Search bar filters restaurants based on query string and displays results",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Previously ordered restaurant indication",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Restaurants that user has previously ordered from display with purple border",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Restaurant Detail and Menu",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Menu items display correctly",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Restaurant page displays menu items with name, price, and quantity selector",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Add to cart functionality works",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Add to cart button adds menu items to cart with quantity of 1",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Cart persistence across reloads",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Orders are retained when browser is reloaded",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Order Management",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Finish Order page displays cart summary",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Cart summary shows all items with quantities, individual prices, and total amount",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Remove items from cart functionality",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Users can remove items from cart in Finish Order page",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Order confirmation message",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "After confirming order, user receives an on-screen confirmation message",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Review System",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Review submission functionality",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Users can submit reviews with star rating (1-5) and comment text",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Past reviews display",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Past reviews are fetched and displayed with reviewer name, rating, and comment",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Error Handling and User Experience",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Form validation and error handling",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Proper input validation for email format, password matching, and error feedback for failed operations",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "API error handling",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Backend API errors are handled gracefully with user-friendly error messages",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Technical Implementation",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Single Page Application structure",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Application is built as SPA with proper client-side routing between pages",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "JavaScript framework usage",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Modern JavaScript framework (React, Vue, Angular) is used appropriately with component structure",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    }
+  ]
+}
