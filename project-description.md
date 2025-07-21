@@ -33,7 +33,7 @@ The following pages and functionality must be implemented:
 
 Developers need to create a dedicated login page where users can enter their credentials and gain access to the platform. The login process will be facilitated by the provided backend API.
 
-#### **Login**
+#### Login
 
 - **Objective:** Allow users to log in using their registered email and password.
 - **UI Elements:**
@@ -47,7 +47,7 @@ Developers need to create a dedicated login page where users can enter their cre
   - Error handling for failed login attempts.
   - On successful login, store the received JWT token for authenticating subsequent requests.
 
-#### **Logout**
+#### Logout
 
 - **Objective:** Offer users a mechanism to securely log out from their session.
 - **UI Elements:**
@@ -93,7 +93,7 @@ Facilitate users in exploring and searching for restaurants.
 
 A dedicated page showcasing all details related to a selected restaurant.
 
-#### **Ordering**
+#### Ordering
 
 - **Objective:** Allow users to select dishes from the menu and place an order.
 - **UI Elements:**
@@ -107,7 +107,7 @@ A dedicated page showcasing all details related to a selected restaurant.
   - Clicking finish order button Finish Order page should appear.
   - Orders should be retained when the browser is reloaded.
 
-#### **Review with Rating**
+#### Review with Rating
 
 - **Objective:** Users should be able to leave reviews and ratings for a restaurant.
 - **UI Elements:**
@@ -119,19 +119,19 @@ A dedicated page showcasing all details related to a selected restaurant.
   - Submitting a review sends the rating and comment to the backend.
   - Fetch and display past reviews for the restaurant from the backend.
 
-### _Finish Order_
+### Finish Order
 
-#### **Objective:**
+#### Objective:
 
 Facilitate the user in finalizing their order, making payment, and receiving a confirmation.
 
-#### **UI Elements:**
+#### UI Elements:
 
 - **Review Cart:** A summary of all items added with their respective quantities and individual prices.
 - **Total Amount:** Displays the cumulative price of all items.
 - **Finish Order Button:** To finalize the order after verifying all details.
 
-#### **Functional Requirements:**
+#### Functional Requirements:
 
 - Upon selecting items and clicking the "Finish Order" button, the user should be shown their cart's content.
 - Users should have the ability to remove items.
@@ -143,18 +143,21 @@ Facilitate the user in finalizing their order, making payment, and receiving a c
 The project will be assessed using multiple evaluation methods to ensure comprehensive coverage of both technical implementation and user experience aspects:
 
 **Technical Assessment:**
+
 - Code review for JavaScript framework usage, component structure, and best practices
 - Functionality testing across different browsers and devices
 - API integration verification and error handling evaluation
 - Authentication and security implementation review
 
 **User Experience Evaluation:**
+
 - Interface design and usability testing
 - Responsive behavior across mobile, tablet, and desktop viewports
 - Form validation and error messaging assessment
 - Overall user flow and navigation evaluation
 
 **Assessment Tools:**
+
 - Modern web browsers (Chrome, Firefox, Safari, Edge) for cross-browser testing
 - Browser developer tools for responsive design and performance analysis
 - Manual testing of all user workflows and edge cases
@@ -163,7 +166,7 @@ The project will be assessed using multiple evaluation methods to ensure compreh
 ## Mark distribution
 
 | WSOS SECTION | Description                            | Points |
-|--------------|----------------------------------------|--------|
+| ------------ | -------------------------------------- | ------ |
 | 1            | Work organization and self-management  | 0      |
 | 2            | Communication and interpersonal skills | 0      |
 | 3            | Design Implementation                  | 4.5    |
