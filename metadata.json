@@ -3,7 +3,9 @@
   "displayName": "Interactive Guest Experience",
   "description": "Create an interactive frontend application for guests utilizing the DineEase restaurant service. Build a modern Single Page Application (SPA) using a JavaScript framework that provides users with an easy-to-navigate platform to explore restaurants, view detailed menus, read past reviews, and place orders.",
   "url": "https://github.com/marketable-it-skills/s17-hu_ro_training_2023-module_d-interactive_guest_experience",
-  "skillDomainIds": [1],
+  "skillDomainIds": [
+    1
+  ],
   "competition": "EuroSkills 2023 Training HU",
   "estTime": 4,
   "authors": [
@@ -20,6 +22,18 @@
       "url": "https://www.linkedin.com/in/0l1v3rr/"
     }
   ],
-  "technologies": ["HTML", "CSS", "JavaScript", "SPA", "Frontend"],
-  "tags": ["frontend", "spa", "ui", "interactive"]
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SPA",
+    "Frontend"
+  ],
+  "tags": [
+    "frontend",
+    "spa",
+    "ui",
+    "interactive"
+  ],
+  "publishedAt": "2026-05-01"
 }
